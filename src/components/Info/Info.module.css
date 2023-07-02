@@ -1,0 +1,58 @@
+
+.Svg{
+    width: 150px;
+}
+.Info{
+    position: absolute;
+    left: 50%;
+    top:20%;
+}
+
+.MyName{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 5em;
+    line-height: .5em;
+    color: #ff561f;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Info{
+        left: 40%;
+        z-index: 5;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Info{
+        left: 20%;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
+
+@media only screen and (max-width: 400px) {
+    .Svg{
+        width: 100px;
+    }
+    .MyName{
+        font-size: 4em;
+        line-height: .5em;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .MyName{
+        font-size: 3em;
+    }
+    .Svg{
+        width: 80px;
+    }
+}
+
+.Greeting{
+    font-family: 'Raleway', sans-serif;
+    color: #ff7d7d;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
