@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import {Card, Col, Row, Form, FormControl} from "react-bootstrap";
 import classes from "../Contact/Contact.module.css";
 import gh from '../../assets/Social/github.svg'
-import tt from '../../assets/Social/twitter.svg'
 import it from '../../assets/Social/instagram.svg'
 import ln from '../../assets/Social/linkedin.svg'
 import be from '../../assets/Social/behance.svg'
