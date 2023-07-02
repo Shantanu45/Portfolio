@@ -1,0 +1,13 @@
+.MyPicture{
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 70px;
+}
+
+
+@media only screen and (max-width: 300px) {
+    .MyPicture {
+        height: 70px;
+        margin-left: 30px;
+    }
+}

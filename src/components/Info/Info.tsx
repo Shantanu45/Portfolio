@@ -1,8 +1,8 @@
 import React from 'react';
 import classes from './Info.module.css'
-//import Hi from '../../../assests/svg/IAm.svg'
+import Hi from '../../assets/svg/IAm.svg'
 import {Row} from 'react-bootstrap'
-//import MyPhoto from '../MyPicture/MyPicture'
+import DisplayPicture from '../Info/DisplayPicture/DisplayPicture'
 //import { Fragment } from "react";
 import Description from "./Description/Description"
 
@@ -11,8 +11,8 @@ const Info = () => {
         <>
             <div className={classes.Info}>
                 <Row>
-                    {/* <img className={classes.Svg} src={Hi} alt="Hi, I AM"/> */}
-                    {/* <MyPhoto/> */}
+                    <img className={classes.Svg} src={Hi} alt="Hi, I AM"/>
+                    <DisplayPicture/>
                 </Row>
                 <Row>
                     <p className={classes.MyName}>shantanu<br/>kumar</p>
