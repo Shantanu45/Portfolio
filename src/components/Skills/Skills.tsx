@@ -54,7 +54,7 @@ const Skills = () => {
                     lg={6}
                     md={12}
                     sm={6}
-                    style={{ height: "50%", margin: "20px 0px 10px 0px"}}
+                    style={{ height: "50%", margin: "40px 0px 10px 0px"}}
                   >
                     <img src={Vulkan} alt={"Vulkan"} />
                   </Col>
