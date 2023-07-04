@@ -7,14 +7,14 @@ import { NavLink } from "react-router-dom";
 const BpttomBar = () => {
     const activeStyle  = ({ isActive, isPending }) => {
         return {
-          // borderBottom: isActive ? "5px solid #f1ee12" : "",
+          borderBottom: isActive ? "500px solid #000000" : "",
           color: isActive ? "black" : '#ff561f',
         };
       }
   return (
     <div className={classes.Links}>
       <Row>
-        <Col className={classes.NavLinks} lg={3} md={6} xs={6}>
+        <Col className={classes.NavLinks}>
           <NavLink
             to={"/"}
             style={activeStyle}
@@ -22,7 +22,15 @@ const BpttomBar = () => {
             Home
           </NavLink>
         </Col>
-        <Col className={classes.NavLinks} lg={3} md={6} xs={6}>
+        <Col className={classes.NavLinks}>
+          <NavLink
+            to={"/skills"}
+            style={activeStyle}
+          >
+            Skills
+          </NavLink>
+        </Col>
+        <Col className={classes.NavLinks}>
           <NavLink
             to={"/contact"}
             style={activeStyle}

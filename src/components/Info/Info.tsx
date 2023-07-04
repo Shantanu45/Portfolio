@@ -10,20 +10,20 @@ const Info = () => {
     return (
         <>
             <div className={classes.Info}>
-                <Row>
+                <div>
                     <img className={classes.Svg} src={Hi} alt="Hi, I AM"/>
                     <DisplayPicture/>
-                </Row>
-                <Row>
+                </div>
+                <div>
                     <p className={classes.MyName}>shantanu<br/>kumar</p>
-                </Row>
+                </div>
             </div>
-            <Row>
+            <div>
                 <div style={{marginTop: '54vh'}}>
                     <Description />
                 </div>
                 <p className={classes.Greeting} style={{margin: 'auto', marginTop: '58vh'}}>How May I Help You?</p>
-            </Row>
+            </div>
         </>
     );
 };

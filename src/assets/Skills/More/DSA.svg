@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 266 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <circle cx="65.188" cy="26.84" r="16.426"/>
+    <g transform="matrix(1,0,0,1,1.37601,0.344005)">
+        <circle cx="23.736" cy="75.344" r="13.158"/>
+    </g>
+    <g transform="matrix(1,0,0,1,41.1083,-0.343997)">
+        <circle cx="23.736" cy="75.344" r="13.158"/>
+    </g>
+    <g transform="matrix(1,0,0,1,79.4646,-0.343997)">
+        <circle cx="23.736" cy="75.344" r="13.158"/>
+    </g>
+    <g transform="matrix(0.607843,0,0,0.607843,99.437,72.203)">
+        <circle cx="23.736" cy="75.344" r="13.158"/>
+    </g>
+    <g transform="matrix(0.607843,0,0,0.607843,64.5207,74.783)">
+        <circle cx="23.736" cy="75.344" r="13.158"/>
+    </g>
+    <g transform="matrix(0.607843,0,0,0.607843,26.8524,75.299)">
+        <circle cx="23.736" cy="75.344" r="13.158"/>
+    </g>
+    <g transform="matrix(0.607843,0,0,0.607843,-2.5598,71.859)">
+        <circle cx="23.736" cy="75.344" r="13.158"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-1.54801,1.03201)">
+        <path d="M51.428,42.148L33.024,65.712" style="fill:none;stroke:black;stroke-width:5.41px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,2.40801)">
+        <path d="M65.36,45.932L65.36,62.788" style="fill:none;stroke:black;stroke-width:5.41px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,1.20401,1.03201)">
+        <path d="M77.573,42.148L96.149,65.368" style="fill:none;stroke:black;stroke-width:5.41px;"/>
+    </g>
+    <g transform="matrix(0.98881,0.121363,-0.140356,0.953881,16.6904,-7.04697)">
+        <path d="M106.297,91.856L112.145,109.744" style="fill:none;stroke:black;stroke-width:5.59px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,1.89202,1.72001)">
+        <path d="M38.356,85.664L72.929,115.076" style="fill:none;stroke:black;stroke-width:5.41px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0.516004,1.54801)">
+        <path d="M30.1,91.512L38.184,113.012" style="fill:none;stroke:black;stroke-width:5.41px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-0.344003,1.37601)">
+        <path d="M19.952,90.996L14.276,109.916" style="fill:none;stroke:black;stroke-width:5.41px;"/>
+    </g>
+    <g transform="matrix(1.4777,0,0,1.4777,-87.6237,-1.33977)">
+        <text x="144.653px" y="67.948px" style="font-family:'BerlinSansFB-Reg', 'Berlin Sans FB', sans-serif;font-size:16px;">Datastructure</text>
+        <text x="144.653px" y="83.948px" style="font-family:'BerlinSansFB-Reg', 'Berlin Sans FB', sans-serif;font-size:16px;">&amp; Algorithms</text>
+    </g>
+</svg>

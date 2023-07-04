@@ -35,7 +35,7 @@ const TextTransition = () => {
         width: "100%",
       }}
     >
-      <p className={classes.Para}>{item.title}</p>
+      <h1 className={classes.Para}>{item.title}</h1>
     </animated.div>
   ));
 };

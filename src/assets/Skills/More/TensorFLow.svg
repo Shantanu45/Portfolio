@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 268 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M106.23,33.409L131.877,19.372L131.877,79.159L122.346,73.267L122.346,37.568L106.23,46.233L106.23,33.409Z" style="stroke:black;stroke-width:1px;"/>
+    <g transform="matrix(1,0,0,1.01159,0,0.303311)">
+        <path d="M134.996,18.679L134.996,78.466L144.701,73.267L145.394,56.284L153.366,60.443L153.366,49.179L145.394,44.673L145.394,37.395L161.337,46.06L161.337,33.236L134.996,18.679Z" style="stroke:black;stroke-width:0.99px;"/>
+    </g>
+    <g transform="matrix(2.78441,0,0,2.78441,-112.006,-154.862)">
+        <text x="57.36px" y="93.889px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">T<tspan x="63.36px 70.034px " y="93.889px 93.889px ">en</tspan>sorFlow</text>
+    </g>
+</svg>
