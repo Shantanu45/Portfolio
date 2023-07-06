@@ -21,5 +21,6 @@ code {
 }
 
 #root{
+  position:absolute;
   background-color: transparent;
 }

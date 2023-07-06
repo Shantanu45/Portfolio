@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Main from "./components/main/main";
 import BottomBar from "./components/BottomBar/BottomBar";
+import Work from "./components/Work/Work"
 import Skills from "./components/Skills/Skills"
 import { useTransition, animated } from "react-spring";
 import Contact from "./components/Contact/Contact.tsx";
@@ -26,6 +27,7 @@ function App() {
         <animated.div style={style}>
           <Routes location={item}>
             <Route path={"/"} element={<Main />} />
+            <Route path={"/Work"} element={<Work />} />
             <Route path={"/skills"} element={<Skills />} />
             <Route path={"/contact"} element={<Contact />} />
             {/* <Route component={Error}/> */}
