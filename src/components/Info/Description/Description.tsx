@@ -5,8 +5,7 @@ import classes from "./Description.module.css";
 const TextTransition = () => {
   const [index, setIndex] = useState(0);
   const [items] = useState([
-    { title: "I am a Graphics/Rendring Engineer", id: 0 },
-    { title: "I am a C++ Programmer", id: 1 }
+    { title: "I am a Graphics/Rendering Engineer", id: 0 },
   ]);
 
   const fadingTextPropsTransition = useTransition(items[index], {

@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import "./Work.scss";
-import UbisoftLogo from "../../assets/Work/UbisoftLogo.jpg"
-import VigaLogo from "../../assets/Work/VigaLogo.png"
+import UbisoftLogo from "../../assets/Work/UbisoftLogo.jpg";
+import VigaLogo from "../../assets/Work/VigaLogo.png";
+import Engine from "../../assets/Work/Engine.png";
 
 const Work = () => {
   const workDescription = [
@@ -16,10 +17,10 @@ const Work = () => {
       APIs like Vulkan, DirectX.`,
       image: UbisoftLogo,
       type: "Profestional",
-      role: "Junior 3D Programmer"
+      role: "Junior 3D Programmer",
     },
     {
-      title: "Viga Entertainment Technologies Pvt. Ltd.",
+      title: "Viga Entertainment Technologies",
       content: `I was Graphics Lead and worked on cutting edge real-time
       computer graphics problems using modern tools and
       technologies like Unreal Engine, Multithreading, Vulkan, C++
@@ -27,7 +28,16 @@ const Work = () => {
       development for UE4 and Blender. Have worked on one movie, one web series and flight simulator for internal use.`,
       image: VigaLogo,
       type: "Personal",
-      role: "Graphics Engineer"
+      role: "Graphics Engineer",
+    },
+    {
+      title: "Prettier Engine",
+      content: `Vulkan Engine made using C++ and Win32 API with deferred
+      rendering and forward rendering support using multiple sub
+      passes`,
+      image: Engine,
+      type: "Personal",
+      role: "Personal Project",
     },
     {
       title: "Podcast Title",
@@ -40,20 +50,7 @@ const Work = () => {
           illum quos!`,
       image: "https://picsum.photos/1000/1000",
       type: "Personal",
-      role: "Junior 3D Programmer"
-    },
-    {
-      title: "Podcast Title",
-      content: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Eligendi, fugiat asperiores inventore beatae accusamus odit
-          minima enim, commodi quia, doloribus eius! Ducimus nemo
-          accusantium maiores velit corrupti tempora reiciendis molestiae
-          repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt
-          neque nulla unde ipsum dolores nobis enim quidem excepturi,
-          illum quos!`,
-      image: "https://picsum.photos/1000/1000",
-      type: "Personal",
-      role: "Graphics Engineer"
+      role: "Graphics Engineer",
     },
   ];
 
@@ -72,7 +69,8 @@ const Work = () => {
             <h1>{element.title}</h1>
           </h1>
           <div className="postcard__subtitle">
-              <i className="fas fa-calendar-alt mr-2"></i>{element.role}
+            <i className="fas fa-calendar-alt mr-2"></i>
+            {element.role}
           </div>
           <div className="postcard__bar"></div>
           <div className="postcard__preview-txt">{element.content}</div>
@@ -96,7 +94,7 @@ const Work = () => {
 
   return (
     <>
-        <div className="container py-2">{fillWorkContent()}</div>
+      <div className="container py-2">{fillWorkContent()}</div>
     </>
   );
 };
