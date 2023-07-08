@@ -2,7 +2,7 @@ html,body{
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background-image: url("D:/portfolio/new_portfolio/src/assets/background.svg");
+  background-image: url("./assets/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
