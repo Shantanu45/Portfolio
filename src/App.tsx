@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Main from "./components/main/main";
 import BottomBar from "./components/BottomBar/BottomBar";
 import Work from "./components/Work/Work"
@@ -9,6 +9,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
 
+const loader = document.querySelector('.spinner');
+
+// if you want to show the loader when React loads data again
+const showLoader = () => loader?.classList.remove('spinner--hide');
+
+const hideLoader = () => loader?.classList.add('spinner--hide');
+
 function App() {
   const location = useLocation();
   const transitions = useTransition(location, {
@@ -17,6 +24,8 @@ function App() {
     leave: { opacity: 0 },
   });
 
+  useEffect(hideLoader, []);
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

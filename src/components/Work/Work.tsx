@@ -2,6 +2,7 @@ import "./Work.scss";
 import UbisoftLogo from "../../assets/Work/UbisoftLogo.jpg";
 import VigaLogo from "../../assets/Work/VigaLogo.png";
 import Engine from "../../assets/Work/Engine.png";
+import Delayed from "../Delayed";
 
 const Work = () => {
   const workDescription = [
@@ -93,7 +94,9 @@ const Work = () => {
 
   return (
     <>
+    <Delayed waitBeforeShow={800} >
       <div className="container py-2">{fillWorkContent()}</div>
+    </Delayed>
     </>
   );
 };

@@ -139,8 +139,18 @@ a, a:hover {
   }
 }
 
+.postcard:hover{
+  animation-name: onhover;
+  animation-duration: .3s;
+  animation-fill-mode: forwards;
+}
+
 @media screen and (min-width: 769px) {
   .postcard {
+
+    animation-name: onhoverout;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
     flex-wrap: inherit;
 
     .postcard__title {
@@ -256,3 +266,38 @@ a, a:hover {
 	
 }
 
+@keyframes onhover {
+  from {
+      transform: scale(1);
+      border: solid 2px #dddddd;
+  }
+  10%{
+
+  }
+
+  70% {
+      transform: scale(1.05);
+  }
+
+  90% {
+      transform: scale(1.03);
+  }
+
+  to {
+      border: solid 4px #ff561f;
+      transform: scale(1.04);
+  }
+}
+
+@keyframes onhoverout {
+  from {
+      transform: scale(1.05);
+      border: solid 4px #000000;
+  }
+
+  to {
+      transform: scale(1);
+      border: solid 2px #000000;
+
+  }
+}

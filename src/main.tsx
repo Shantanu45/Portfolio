@@ -6,9 +6,9 @@ import {
 
 import './index.css'
 
-
+setTimeout(() => 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <Router>
     <App/>
   </Router>
-)
+), 1000)
