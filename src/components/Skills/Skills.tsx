@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
+import { useEffect } from "react";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import classes from "./Skills.module.css";
 import Vulkan from "../../assets/Skills/Graphics Frameworks/vulkan_big.svg";
 import DX12 from "../../assets/Skills/Graphics Frameworks/dx12.svg";
@@ -22,8 +22,8 @@ import Unreal from "../../assets/Skills/Engines/unreal_big.svg";
 import Unity from "../../assets/Skills/Engines/unity_big.svg";
 
 import Photoshop from "../../assets/Skills/More/Photoshop.svg";
-import Illustrator from "../../assets/Skills/Graphics/AdobeIllustrator.png";
-import Blender from "../../assets/Skills/Graphics/Blender.png";
+// import Illustrator from "../../assets/Skills/Graphics/AdobeIllustrator.png";
+// import Blender from "../../assets/Skills/Graphics/Blender.png";
 import Maya from "../../assets/Skills/More/Maya.svg";
 
 import TF from "../../assets/Skills/More/TensorFLow.svg";

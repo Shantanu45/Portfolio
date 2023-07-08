@@ -1,7 +1,5 @@
-import React from 'react';
 import classes from './Info.module.css'
 import Hi from '../../assets/svg/IAm.svg'
-import {Row} from 'react-bootstrap'
 import DisplayPicture from '../Info/DisplayPicture/DisplayPicture'
 //import { Fragment } from "react";
 import Description from "./Description/Description"

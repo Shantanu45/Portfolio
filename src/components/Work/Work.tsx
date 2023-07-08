@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "./Work.scss";
 import UbisoftLogo from "../../assets/Work/UbisoftLogo.jpg";
 import VigaLogo from "../../assets/Work/VigaLogo.png";

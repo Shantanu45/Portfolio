@@ -1,14 +1,18 @@
-import React from "react";
+
 import classes from "./BottomBar.module.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { NavLink } from "react-router-dom";
 
 const BpttomBar = () => {
-  const activeStyle = ({ isActive, isPending }) => {
+  interface isActiveOrPending {
+    isActive: Boolean,
+    isPending: Boolean
+  }
+  const activeStyle = (isActiveOrPending:isActiveOrPending) => {
     return {
-      borderBottom: isActive ? "500px solid #000000" : "",
-      color: isActive ? "black" : "#ff561f",
+      borderBottom: isActiveOrPending.isActive ? "500px solid #000000" : "",
+      color: isActiveOrPending.isActive ? "black" : "#ff561f",
     };
   };
   return (

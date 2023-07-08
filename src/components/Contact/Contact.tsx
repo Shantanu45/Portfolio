@@ -1,5 +1,5 @@
-import React, { useState, useEffect, MouseEvent } from "react";
-import { Card, Col, Row, Form, FormControl } from "react-bootstrap";
+import { useState, useEffect } from "react";
+import { Col, Row} from "react-bootstrap";
 import classes from "../Contact/Contact.module.css";
 import gh from "../../assets/Social/github.svg";
 import it from "../../assets/Social/instagram.svg";
@@ -13,11 +13,11 @@ const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const [mail, setMail] = useState({ email: "", name: "", message: "" });
-  const [send, setSend] = useState(false);
+  // const [mail, setMail] = useState({ email: "", name: "", message: "" });
+  // const [send, setSend] = useState(false);
   const [copyEmail, setCopyEmail] = useState(false);
 
-  const handleEmailCopy = (e: MouseEvent) => {
+  const handleEmailCopy = () => {
     // let copyText = emailAddress;
     // if(e.target.name === "myEmail"){
     //     copyText = e.target;
@@ -96,13 +96,13 @@ const Contact = () => {
             backgroundColor: copyEmail ? "#cfffa2" : "white",
             border: copyEmail ? "solid 3px #cfffa2" : "solid 2px #d9d9d9",
           }}
-          onClick={(e) => handleEmailCopy(e)}
+          onClick={() => handleEmailCopy()}
           id="myEmail"
           name={"myEmail"}
         />
         <svg
           style={{ position: "relative", left: "-27px" }}
-          onClick={(e) => handleEmailCopy(e)}
+          onClick={() => handleEmailCopy()}
           height="20"
           viewBox="0 0 24 24"
           width="20"
