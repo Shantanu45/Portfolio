@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Main from "./components/main/main";
 import BottomBar from "./components/BottomBar/BottomBar";
 import Work from "./components/Work/Work"
@@ -12,7 +12,7 @@ import "./App.css";
 const loader = document.querySelector('.spinner');
 
 // if you want to show the loader when React loads data again
-const showLoader = () => loader?.classList.remove('spinner--hide');
+//const showLoader = () => loader?.classList.remove('spinner--hide');
 
 const hideLoader = () => loader?.classList.add('spinner--hide');
 
