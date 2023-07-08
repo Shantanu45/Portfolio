@@ -1,4 +1,4 @@
-import Me from '../../../assets/MyPicture/me2.jpg';
+import Me from '../../../assets/MyPicture/me3.jpg';
 import classes from './DisplayPicture.module.css'
 
 const DisplayPicture = () => {
