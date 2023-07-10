@@ -6,6 +6,8 @@ const TextTransition = () => {
   const [index, setIndex] = useState(0);
   const [items] = useState([
     { title: "I am a Graphics/Rendering Engineer", id: 0 },
+    { title: "Game Developer", id: 1 },
+    { title: "C++ Programmer", id: 2 },
   ]);
 
   const fadingTextPropsTransition = useTransition(items[index], {
