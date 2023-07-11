@@ -15,11 +15,11 @@ const Work = () => {
     {
       title: "Ubisoft",
       content: `Implementing and debugging rendering features for android and
-      PC. Porting Ubisoft's Anvil Engine (games like Assassin Creed
+      PC. Developing features and tools for Anvil Editor and render. 
+      Porting Ubisoft's Anvil Engine (games like Assassin Creed
       and Prince of Persia are developed on this engine) to Android
       and making sure that everything works perfectly as it works on
-      PC platform. My team is a part of an initiative for Anvil
-      development in Pune itself. Mostly working with C++, C# and
+      PC platform. Mostly working with C++, C# and
       APIs like Vulkan, DirectX.`,
       image: UbisoftLogo,
       type: "Professional",
