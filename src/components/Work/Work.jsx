@@ -16,8 +16,8 @@ const Work = () => {
       title: "Ubisoft",
       content: `Implementing and debugging rendering features for android and
       PC. Currently hepling in development of features and toolset for Anvil Editor
-      (games like Assassin Creed and Prince of Persia are developed on this engine) 
-      and renderer. 
+      (games like Assassin Creed, Prince of Persia, RainbowSix are some of the games 
+      made on this engine) and renderer. 
       My task mainly includes writing C++ code and shaders into the engine codebase.
       Maintaining and Extending workflows, performance optimizations, bug fixes, new feature integrations
       are some of my goals. Mostly working with C++, C# and APIs like Vulkan, DirectX.`,
