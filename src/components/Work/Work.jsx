@@ -15,12 +15,12 @@ const Work = () => {
     {
       title: "Ubisoft",
       content: `Implementing and debugging rendering features for android and
-      PC. Developing features and tools for Anvil Editor and render. 
-      Porting Ubisoft's Anvil Engine (games like Assassin Creed
-      and Prince of Persia are developed on this engine) to Android
-      and making sure that everything works perfectly as it works on
-      PC platform. Mostly working with C++, C# and
-      APIs like Vulkan, DirectX.`,
+      PC. Currently hepling in development of features and toolset for Anvil Editor
+      (games like Assassin Creed and Prince of Persia are developed on this engine) 
+      and renderer. 
+      My task mainly includes writing C++ code and shaders into the engine codebase.
+      Maintaining and Extending workflows, performance optimizations, bug fixes, new feature integrations
+      are some of my goals. Mostly working with C++, C# and APIs like Vulkan, DirectX.`,
       image: UbisoftLogo,
       type: "Professional",
       role: "Junior 3D Programmer",
@@ -31,16 +31,17 @@ const Work = () => {
       computer graphics problems using modern tools and
       technologies like Unreal Engine, Multithreading, Vulkan, C++
       and Qt. Also Worked on Gameplay programming and Plugin
-      development for UE4 and Blender. Have worked on one movie, one web series 
-      and flight simulator for internal use.`,
+      development for UE4 and Blender. My work have been using in few Movies 
+      and Web series as well.`,
       image: VigaLogo,
-      type: "Personal",
+      type: "Professional",
       role: "Graphics Engineer",
     },
     {
       title: "Prettier Engine",
-      content: `Vulkan Engine made using C++ and Win32 API with deferred rendering and forward rendering using multiple sub
-      passes, with support for shadows, different types of lights, environment maps etc.`,
+      content: `Vulkan Engine made using C++ and Win32 API with deferred rendering 
+      and forward rendering using multiple sub passes, with support for shadows, 
+      different types of lights, environment maps etc.`,
       image: Engine,
       type: "Personal",
       role: "Personal Project",
