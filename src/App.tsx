@@ -36,7 +36,7 @@ function App() {
         <animated.div style={style}>
           <Routes location={item}>
             <Route path={"/"} element={<Main />} />
-            <Route path={"/Work"} element={<Work />} />
+            <Route path={"/work"} element={<Work />} />
             <Route path={"/skills"} element={<Skills />} />
             <Route path={"/contact"} element={<Contact />} />
             {/* <Route component={Error}/> */}
